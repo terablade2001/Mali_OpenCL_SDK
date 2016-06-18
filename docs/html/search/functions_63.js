@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['checksuccess',['checkSuccess',['../common_8cpp.html#a73727ed6f5d821d8c97756404e145644',1,'checkSuccess(cl_int errorNumber):&#160;common.cpp'],['../common_8h.html#a73727ed6f5d821d8c97756404e145644',1,'checkSuccess(cl_int errorNumber):&#160;common.cpp']]],
+  ['cleanupopencl',['cleanUpOpenCL',['../common_8cpp.html#acd459e74d0cef3c4616c7ce1a5a47f4d',1,'cleanUpOpenCL(cl_context context, cl_command_queue commandQueue, cl_program program, cl_kernel kernel, cl_mem *memoryObjects, int numberOfMemoryObjects):&#160;common.cpp'],['../common_8h.html#acd459e74d0cef3c4616c7ce1a5a47f4d',1,'cleanUpOpenCL(cl_context context, cl_command_queue commandQueue, cl_program program, cl_kernel kernel, cl_mem *memoryObjects, int numberOfMemoryObjects):&#160;common.cpp']]],
+  ['createcommandqueue',['createCommandQueue',['../common_8cpp.html#a30ee399cc6a4b82d46c581f037b447fa',1,'createCommandQueue(cl_context context, cl_command_queue *commandQueue, cl_device_id *device):&#160;common.cpp'],['../common_8h.html#a30ee399cc6a4b82d46c581f037b447fa',1,'createCommandQueue(cl_context context, cl_command_queue *commandQueue, cl_device_id *device):&#160;common.cpp']]],
+  ['createcontext',['createContext',['../common_8cpp.html#a6fc67d121370b02ac8bff71ec00a7665',1,'createContext(cl_context *context):&#160;common.cpp'],['../common_8h.html#a6fc67d121370b02ac8bff71ec00a7665',1,'createContext(cl_context *context):&#160;common.cpp']]],
+  ['createprogram',['createProgram',['../common_8cpp.html#a4feec45e4b990aad8e40cc3faa32a9c8',1,'createProgram(cl_context context, cl_device_id device, string filename, cl_program *program):&#160;common.cpp'],['../common_8h.html#a7fe72dc9fb4aad614e19d6bfbb2a7fce',1,'createProgram(cl_context context, cl_device_id device, std::string filename, cl_program *program):&#160;common.h']]],
+  ['createstartx',['createStartX',['../mandelbrot_8cl.html#a4dffa8ed5ea4612c75f705e514351c4a',1,'mandelbrot.cl']]]
+];
