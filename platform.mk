@@ -6,8 +6,16 @@
 # copies and copies may only be made to the extent permitted
 # by a licensing agreement from ARM Limited.
 
-CC:=arm-none-linux-gnueabi-g++
-AR=arm-none-linux-gnueabi-ar
+#ubuntu gcc toolchain
+CC:=g++
+#AR:=AR
+
+#ARM  GNU
+#CC:=arm-linux-gnueabihf-g++
+#AR:=arm-linux-gnueabihf-ar
+
+#CC:=arm-none-linux-gnueabi-g++
+#AR=arm-none-linux-gnueabi-ar
 
 # Test to see if the platform is Windows (it's Windows if the shell has the .exe extention).
 ifeq (.exe, $(suffix $(SHELL)))
