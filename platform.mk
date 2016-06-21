@@ -7,12 +7,12 @@
 # by a licensing agreement from ARM Limited.
 
 #ubuntu gcc toolchain
-CC:=g++
+#CC:=g++
 #AR:=AR
 
 #ARM  GNU
-#CC:=arm-linux-gnueabihf-g++
-#AR:=arm-linux-gnueabihf-ar
+CC:=arm-linux-gnueabihf-g++
+AR:=arm-linux-gnueabihf-ar
 
 #CC:=arm-none-linux-gnueabi-g++
 #AR=arm-none-linux-gnueabi-ar
@@ -28,4 +28,4 @@ else
 	CONCATENATE:=;
 	MKDIR:=mkdir -p
 	CP:=cp
-endif	
+endif

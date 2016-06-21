@@ -355,7 +355,8 @@ bool createProgram(cl_context context, cl_device_id device, string filename, cl_
     return true;
 }
 
-inline bool checkSuccess(cl_int errorNumber)
+//inline //arm gnu toolchain fails to link!
+bool checkSuccess(cl_int errorNumber)
 {
     if (errorNumber != CL_SUCCESS)
     {
